@@ -8,8 +8,3 @@ require (
 	github.com/go-anyway/framework-trace v1.0.0
 )
 
-replace (
-	github.com/go-anyway/framework-config => ../core/config
-	github.com/go-anyway/framework-log => ../core/log
-	github.com/go-anyway/framework-trace => ../trace
-)
